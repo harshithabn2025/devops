@@ -1,0 +1,16 @@
+name: Simple CI Pipeline
+
+on:
+  push:
+    branches: ["main"]
+
+    jobs:
+      build:
+        runs-on: ubuntu-latest
+
+        steps:
+          - names: Checkout repository
+            uses: actions/Checkout@v3
+
+          - names: Checkout repository
+            uses: echo "This is my Pipeline run"
