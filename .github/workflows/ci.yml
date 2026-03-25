@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - names: Checkout repository
+      - name: Checkout repository
         uses: actions/Checkout@v3
 
-      - names: Run a simple command
+      - name: Run a simple command
         run: echo "This is my Pipeline run"
