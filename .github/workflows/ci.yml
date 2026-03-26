@@ -10,16 +10,14 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/Checkout@v3
+        uses: actions/checkout@v3
 
       - name: Run a simple command
-        run: echo "hello, This is Harshitha "
+        run: echo "hello, This is Harshitha"
 
       - name: step1
-        run: echo"this is step 1 one"
+        run: echo "this is step 1 one"
 
       - name: step2
-        run: echo"this is step 2 two"
-
-      
+        run: echo "this is step 2 two"
 
