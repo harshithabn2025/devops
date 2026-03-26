@@ -14,3 +14,12 @@ jobs:
 
       - name: Run a simple command
         run: echo "hello, This is Harshitha "
+
+      - name: step1
+        run: echo"this is step 1 one"
+
+      - name: step2
+        run: echo"this is step 2 two"
+
+      
+
