@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repository1  
         uses: actions/checkout@v3
 
       - name: Run a simple command
@@ -20,4 +20,8 @@ jobs:
 
       - name: step2
         run: echo "this is step 2 two"
+
+      - name: Pipeline Break
+        run: echo "This pipeline is fixed"
+
 
