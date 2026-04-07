@@ -24,7 +24,7 @@ jobs:
       - name: Pipeline Break
         run: echo "This pipeline is fixed"
 
-      on:
+on:
   push:
     branches: ["main"]
   pull_request:
