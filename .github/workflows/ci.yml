@@ -23,13 +23,11 @@ jobs:
 
       - name: Pipeline Break
         run: echo "This pipeline is fixed"
-
 on:
   push:
     branches: ["main"]
   pull_request:
     branches: ["main"]
-
 
 
 
